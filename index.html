@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Dainty Homes</title>
+  </head>
+  <body>
+   
+    <header>
+         <!--Navigation-->
+        <nav class="nav-wrapper nav-color">
+            <div class="container ">
+                <a href="#" class="brand-logo">Dainty Homes</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down ">
+                    <li class="active"><a href="#home" class=" active link-text">Home</a></li>
+                    <li><a href="#about" class="link-text">About Us</a></li>
+                    <li><a href="#contact" class="link-text">Contact</a></li>
+                    <li><a href="#partner" class="link-text">Partner With Us</a></li>
+                    <li><a href="#login" class="link-text">Sign Up</a></li> 
+                </ul>
+            </div>
+        </nav>
+    
+         <ul class="sidenav sidenav-color" id="mobile-links">
+            <li class="active"><a href="#home" class="link-text">Home</a></li>
+            <li><a href="#about" class="link-text">About Us</a></li>
+            <li><a href="#contact" class="link-text">Contact</a></li>
+            <li><a href="#partner" class="link-text">Partner With Us</a></li>
+            <li><a href="#login" class="link-text">Sign Up</a></li> 
+         </ul>
+
+         <div class="container">
+             <h2 class="center-align subtitle">Find your perfect home without breaking the bank.</h2>
+
+         </div>
+ 
+
+            <div class="wrapper input-field">
+                <input type="text" class="input" 
+                placeholder="What are you looking for?">
+                <div class="searchbtn"><i class="material-icons">search</i></div>
+            </div>
+    </header>
+   
+    
+
+    
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/assets/scripts.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $(".sidenav ").sidenav();
+    });
+    </script>
+  </body>
+</html>
