@@ -1,68 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-    <link rel="stylesheet" href="assets/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <title>Dainty Homes</title>
-  </head>
- 
-  <body>
+</head>
+
+<body>
     <header>
-         <!--Navigation-->
-        <nav class="nav-wrapper nav-bar">
-            <div class="container ">
-                <a href="#" class="brand-logo left ">Dainty Homes</a>
-                <a href="#" class="sidenav-trigger right" data-target="mobile-links">
-                    <i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down ">
-                    <li class="active"><a href="#home" class=" active link-text">Home</a></li>
-                    <li><a href="#about" class="link-text">About Us</a></li>
-                    <li><a href="#contact" class="link-text">Contact</a></li>
-                    <li><a href="#partner" class="link-text">Partner With Us</a></li>
-                    <li><a href="#login" class="link-text">Sign Up</a></li> 
-                </ul>
-            </div>
-        </nav>
-    
-         <ul class="sidenav sidenav-color sidenav-text" id="mobile-links">
+        <!--Navigation-->
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper nav-bar">
+                <div class="container">
+                    <a href="#" class="brand-logo left ">Dainty Homes</a>
+                    <a href="#" class="sidenav-trigger right" data-target="mobile-links">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down ">
+                        <li class="active"><a href="#home" class=" active link-text">Home</a></li>
+                        <li><a href="#about" class="link-text">About Us</a></li>
+                        <li><a href="#contact" class="link-text">Contact</a></li>
+                        <li><a href="#partner" class="link-text">Partner With Us</a></li>
+                        <li><a href="#login" class="link-text">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav sidenav-color sidenav-text" id="mobile-links">
             <li class="active"><a href="#home" class="sidenav-text z-depth-5 white">Home</a></li>
             <li><a href="#about" class="sidenav-text z-depth-5 white ">About Us</a></li>
             <li><a href="#contact" class="sidenav-text z-depth-5 white">Contact</a></li>
             <li><a href="#partner" class="sidenav-text z-depth-5 white">Partner With Us</a></li>
-            <li><a href="#login" class="sidenav-text  z-depth-5 white">Sign Up</a></li> 
-         </ul>
+            <li><a href="#login" class="sidenav-text  z-depth-5 white">Sign Up</a></li>
+        </ul>
 
-         <div class="container">
-             <h2 class="center-align subtitle">Find your perfect home without breaking the bank.</h2>
+        <!---Hero Section-->
 
-         </div>
- 
+        <div class="container section scrollspy" id="search">
+            <h2 class="center-align subtitle">Find your perfect home without breaking the bank.</h2>
+        </div>
 
-            <div class="wrapper">
-                <input type="text" class="browser-default search " placeholder="Search for choice apartments">
-                <div class="searchbtn"><i class="material-icons">search</i></div>
-            </div>
+        <div class="wrapper ">
+            <input type="text" class="browser-default search " placeholder="Search for choice apartments">
+            <div class="searchbtn"><i class="material-icons">search</i></div>
+        </div>
     </header>
-   
-    
 
-    
+    <!--Parralax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="../images/img3.jpg"></div>
+    </div>
 
-   
+
+    <!--About Section-->
+    <section class="container section scrollspy" id="about">
+        <h3 class="center subtitle-new">About Us</h3>
+        <div class="row row-new z-depth-5">
+            <!--About content-->
+            <div class="col s12 m6 l6">
+                <div class="card card-new z-depth-5">
+                    <div class="card-content">
+                        <span class="card-title big-text center">About Dainty Homes</span>
+                        <p class="text">Dainty Homes is a housing site that offers very flexible payment plans for
+                            people depending
+                            on their income. We have created a housing
+                            scheme that lets big organizations from banks to real estate companies, to humanitarian
+                            organizations partner
+                            with us to take care of your accommodation while you pay an affordable percentage from
+                            whatever you earn, so that you are not homeless because you do not have bulk money to rent a
+                            place. <br>
+                            Dainty Homes was borne out of the need to reduce and eventually eradicate the poor housing
+                            situation in Nigeria and is the first of its kind in Nigeria.</p>
+                    </div>
+                    <div class="card-action hoverable">
+                        <a href="#search" class="text-link hoverable">Search Homes</a>
+                        <a href="#" class="text-link hoverable">Partner</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12  m6 l6">
+                <div class="card ">
+                    <div class="card-image z-depth-5">
+                        <img src="../images/about1-img.jpg" alt="" srcset="">
+                    </div><br>
+                    <div class="card-image z-depth-5">
+                        <img src="../images/about2-img.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!--Parralax-->
+     <div class="parallax-container">
+        <div class="parallax"><img src="../images/img4.jpg"></div>
+    </div>
+
+    <!--Meet the Team Section-->
+    <section class="container section">
+        <h3 class="center subtitle-new">Meet The Team</h3>
+        <div class="row">
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e0e8f4,c_fill,g_auto,r_max,w_1000/v1608205474/dara_p2lxv8.jpg" alt="" srcset="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center big-text">Dara Nelson</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e9f0f6,bo_1px_solid_rgb:d1dae1,c_fill,g_auto,r_max,w_1000/v1606592864/T01AK91M602-U01AH7G9KEJ-2213eb9c03ae-512_cbj7hs.jpg" alt="" srcset="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center big-text">Aisha Olubiyo</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src=" https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e9f0f6,bo_1px_solid_blue,c_fill,g_auto,r_max,w_1000/v1606586839/Jennifer_rlckom.jpg" alt="" srcset="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center big-text">Jennifer Iroh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Parralax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="../images/img7.jpg"></div>
+    </div>
+
+
+
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/scripts.js"></script>
 
-    <script>
-    $(document).ready(function(){
-        $(".sidenav ").sidenav();
-    });
-    </script>
-  </body>
+</body>
+
 </html>
