@@ -202,4 +202,14 @@
     transition: all 0.3s;
     color: var(--text-color);
 } 
+/*search-section--*/
+
+.service-section {
+    color:var(--first-color) ;
+
+}
+#listing {
+   font-size:var(--small-font-size) ; 
+}
+
    
