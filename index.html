@@ -5,28 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Dainty Homes</title>
 </head>
 
 <body>
-    <!---Scroller icon---> 
+    <!---Scroller icon--->
     <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-chevron-up scrolltop__icon'></i>
     </a>
 
     <!--header section-->
     <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">DAINTY HOMES</a>
+        <div class=" nav bd-container ">
+            <a href="#" class="nav__logo">dAiNtY HOMES</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="about.html"  class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                    <li class="nav__item"><a href="properties.html"  class="nav__link">Properties</a></li>
-                    <li class="nav__item"><a href="#contact"  class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="properties.html" class="nav__link">Properties</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     <li class="nav__item"><a href="#signup" class="nav__link">Sign Up</a></li>
 
                     <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
@@ -36,31 +37,32 @@
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
             </div>
-        </nav>
+        </div>
     </header>
 
-  
+
 
     <main class="l-main">
-        <!--========== HOME ==========-->
+        <!--hero section-->
         <section class="home background" id="home">
             <div class="home__container bd-container">
                 <div class="home__data">
-                
-                    <h2 class="home__title title-space">Find your perfect home without breaking the bank.</h2>
+
+                    <h2 class="home__title ">Find your perfect home without breaking the bank.</h2>
 
                 </div>
                 <div class="wrapper ">
                     <input type="text" class="browser-default search " placeholder="Search for choice apartments">
                     <div class="searchbtn"><i class='bx bx-search-alt-2'></i></div>
                 </div>
-
                 
+
+
             </div>
         </section>
-        
 
-        <!--========== SERVICES ==========-->
+
+        <!--Services -->
         <section class="services section bd-container" id="services">
             <span class="section-subtitle">Why Dainty Homes?</span>
             <h2 class="section-title">Our amazing services</h2>
@@ -69,7 +71,7 @@
                 <div class="services__content">
 
                     <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
-                        viewBox="0 0 24 24" style="fill: rgba(150, 109, 140, 0.925);">
+                        viewBox="0 0 24 24" style="fill:#AC3B61;">
                         <path d="M18.991,2H9.01C7.899,2,7,2.899,7,4.01v5.637l-4.702,4.642c-0.289,0.285-0.377,0.717-0.223,
                                 1.092 C2.229,15.755,2.595,16,3,16v1.13V21c0,0.553,0.447,1,1,1h7.922H20c0.553,0,1-0.447,1-1V4.009C21,
                                 2.899,20.102,2,18.991,2z M10.922,15.111v3.027V20H5v-2.87V15v-0.568l2.987-2.949l2.935,3.003V15.111z 
@@ -86,7 +88,7 @@
 
                 <div class="services__content">
                     <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
-                        viewBox="0 0 24 24" style="fill: rgba(150, 109, 140, 0.925);">
+                        viewBox="0 0 24 24" style="fill: #AC3B61;">
                         <circle cx="12" cy="12" r="4"></circle>
                         <path d="M13,4.069V2h-2v2.069C7.389,4.522,4.523,7.389,4.069,11H2v2h2.069c0.454,
                             3.611,3.319,6.478,6.931,6.931V22h2v-2.069 c3.611-0.453,6.478-3.319,
@@ -102,7 +104,7 @@
 
                 <div class="services__content">
                     <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
-                        viewBox="0 0 24 24" style="fill: rgba(150, 109, 140, 0.925);">
+                        viewBox="0 0 24 24" style="fill: #AC3B61;">
                         <path d="M21,4H3C2.447,4,2,4.447,2,5v14c0,0.553,
                         0.447,1,1,1h18c0.553,0,1-0.447,1-1V5C22,4.447,21.553,4,21,4z M20,15 c-1.657,0-3,1.343-3,
                         3H7c0-1.657-1.343-3-3-3V9c1.657,0,3-1.343,3-3h10c0,1.657,1.343,3,3,3V15z"></path>
@@ -122,46 +124,56 @@
             <span class="section-subtitle">Hot Deals</span>
             <h2 class="section-title">Newly Added Properties</h2>
 
-            <div class="menu__container bd-grid">
-                <div class="menu__content">
-                    <img src="assets/img/house3.jpg" alt="" class="menu__img">
-                    <h3 class="menu__name">One bedroom duplex</h3>
-                    <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                    <span class="menu__preci">₦1 million</span>
-                    <span class="menu__preci">Installmental Pay: Available</span>
-                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house3.jpg" alt="image of a house" >
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="menu__content">
-                    <img src="assets/img/house4.jpg" alt="" class="menu__img">
-                    <h3 class="menu__name">One bedroom duplex</h3>
-                    <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                    <span class="menu__preci">₦1 million</span>
-                    <span class="menu__preci">Installmental Pay: Available</span>
-                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house4.jpg" alt="">
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="menu__content">
-                    <img src="assets/img/house5.jpg" alt="" class="menu__img">
-                    <h3 class="menu__name">One bedroom duplex</h3>
-                    <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                    <span class="menu__preci">₦1 million</span>
-                    <span class="menu__preci">Installmental Pay: Available</span>
-                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house9.jpg" alt="image of a house" >
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
             <div class="btn-con">
                 <a href="properties.html" class="button">View all properties</a>
-        
-            </div>
-            
 
+            </div>
         </section>
-    
-            
-        
-        
 
         <!--===== Hot deals =======-->
         <section class="app section bd-container">
@@ -169,13 +181,12 @@
                 <div class="app__data">
                     <span class="section-subtitle app__initial">HOT</span>
                     <h2 class="section-title app__initial">Deal of the day!!</h2>
-                    <p class="app__description">Own this beautiful home surrounded in one of the most serene
+                    <p class="app__description">Own this beautiful home located in one of the most serene
                         environments in Nigeria's capital, Abuja. Get this for over 50% off. <br>
-                        <a href="#signup" class="nav__link">Sign up</a> to get this
-                    </p>
+                        <a href="#signup" class="nav__link">Sign up</a> to get this</p>
                 </div>
 
-                <img src="assets/img/house6.jpg" alt="" class="app__img">
+                <img src="assets/img/house6.jpg" alt="image of a house" class="app__img">
             </div>
         </section>
 
@@ -244,11 +255,11 @@
     </footer>
 
 
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
 
-    
+
 </body>
 
 </html>
