@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+/*=====Variables Css ====*/
+:root {
+    --header-height: 3rem;
+  
+    /*=====Colors ====*/
+    --first-color: #0A315C;
+    --second-color:  #084B6F;
+    --third-color:  #066A87;
+    --fourth-color: #04889E;
+    --text-color: #D1E1E7;
+    
+    
+  
+    /*=====Font and Typography ====*/
+    --body-font: 'Montserrat', sans-serif !important;
+    --biggest-font-size: 2.5rem !important;
+    --h1-font-size: 1.5rem !important;
+    --h2-font-size: 1.25rem !important;
+    --h3-font-size: 1.125rem !important;
+    --normal-font-size: .938rem !important;
+    --small-font-size: .813rem !important;
+    --smaller-font-size: .75rem !important;
+  
+    /*=====Font Weight ====*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /*=====Margins ====*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+  /*===Margin top*/
+    --mt-1: .5rem;
+    --mt-2: 1rem;
+    --mt-3: 1.5rem;
+    --mt-4: 2rem;
+    --mt-5: 2.5rem;
+    --mt-6: 3rem;
+
+    --mr-1: .5rem;
+    --mr-2: 1rem;
+    --mr-3: 1.5rem;
+    --mr-4: 2rem;
+    --mr-5: 2.5rem;
+    --mr-6: 3rem;
+
+    --ml-1: .5rem;
+    --ml-2: 1rem;
+    --ml-3: 1.5rem;
+    --ml-4: 2rem;
+    --ml-5: 2.5rem;
+    --ml-6: 3rem;
+    /*=====z-index ====*/
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  
+    
+   
+     body{
+      font-family: var(--body-font);
+      background-color: #f2f2f2;
+      
+  }
+
+    section{
+        padding: 10px;
+    }
+  aside{
+      padding: 30px 10px;
+    
+  }
+
+   main{
+      padding: 30px 10px;
+      
+      
+  }
+
+  .profile{
+      background-color: #ffffff;
+      padding: 10px;
+      margin-top: 50px;
+      border-radius: 10px;
+  }
+
+
+  .profile-img{
+      padding: 10px ;
+  }
+  .badge{
+       
+      background-color: #066A87 ;
+     
+  }
+  .navigation{
+      background-color: #e5e5e5;
+      
+    
+  }
+
+  .fas{
+      font-size: 35px;
+      padding: 15px auto 0px auto;
+  }
+  
+.navbar{
+    padding: 20px 10px;
+}
+.nav-item{
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin: 10px;
+  
+}
+
+.icon-wrapper{
+    margin: 0 auto;
+    padding-top: 10px ;
+}
+  .active{
+      background-color: #0A315C ;
+      color: white;
+  }
+  .notification{
+       background-color: #e5e5e5;
+      padding: 10px;
+      margin-top: 50px;
+      border-radius: 10px;
+      
+  }
+  .noti-wrapper {
+      height: 200px;
+      width: 200px;
+      border-radius:50%;
+      background-color: #ffffff;
+  }
+  .far{
+      font-size: 20px;
+  }
+  .statistic{
+      height: 250px;
+      width: 100%;
+      background-color: #ffffff;
+      margin: 10px 15px;
+  }
+  .card-title{
+      color: #ffffff;
+      background-color:  #04889E;
+      padding: 5px !important;
+      font-size: 0.9em !important;
+  }
