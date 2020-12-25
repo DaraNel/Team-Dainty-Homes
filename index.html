@@ -1,202 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-    <link rel="stylesheet" href="assets/styles.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Dainty Homes</title>
-  </head>
- 
-  <body>
-    <header>
-         <!--Navigation-->
-         <div class="navbar-fixed">
-        <nav class="nav-wrapper nav-bar">
-            <div class="container ">
-                <a href="#" class="brand-logo left ">Dainty Homes</a>
-                <a href="#" class="sidenav-trigger right" data-target="mobile-links">
-                    <i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down ">
-                    <li class="active"><a href="#home" class=" active link-text">Home</a></li>
-                    <li><a href="#about" class="link-text">About Us</a></li>
-                    <li><a href="#contact" class="link-text">Contact</a></li>
-                    <li><a href="#partner" class="link-text">Partner With Us</a></li>
-                    <li><a href="#login" class="link-text">Sign Up</a></li> 
+</head>
+
+<body>
+    <!---Scroller icon--->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--header section-->
+    <header class="l-header" id="header">
+        <div class=" nav bd-container ">
+            <a href="#" class="nav__logo">dAiNtY HOMES</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="properties.html" class="nav__link">Properties</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#signup" class="nav__link">Sign Up</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                 </ul>
             </div>
-        </nav>
-    </div>
-    
-         <ul class="sidenav sidenav-color sidenav-text" id="mobile-links">
-            <li class="active"><a href="#home" class="sidenav-text z-depth-5 white">Home</a></li>
-            <li><a href="#about" class="sidenav-text z-depth-5 white ">About Us</a></li>
-            <li><a href="#contact" class="sidenav-text z-depth-5 white">Contact</a></li>
-            <li><a href="#partner" class="sidenav-text z-depth-5 white">Partner With Us</a></li>
-            <li><a href="#login" class="sidenav-text  z-depth-5 white">Sign Up</a></li> 
-         </ul>
 
-         <div class="container">
-             <h2 class="center-align subtitle">Find your perfect home without breaking the bank.</h2>
-
-         </div>
- 
-
-            <div class="wrapper">
-                <input type="text" class="browser-default search " placeholder="Search for choice apartments">
-                <div class="searchbtn"><i class="material-icons">search</i></div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
             </div>
+        </div>
     </header>
 
-    <!--Parralax-->
-    <div class="parallax-container">
-        <div class="parallax"><img src="../images/img3.jpg"></div>
-    </div>
 
 
-    <!--About Section-->
-    <section class="container section scrollspy" id="about">
-        <h3 class="center subtitle-new">About Us</h3>
-        <div class="row row-new z-depth-5">
-            <!--About content-->
-            <div class="col s12 m6 l6">
-                <div class="card card-new z-depth-5">
-                    <div class="card-content">
-                        <span class="card-title big-text center">About Dainty Homes</span>
-                        <p class="text">Dainty Homes is a housing site that offers very flexible payment plans for
-                            people depending
-                            on their income. We have created a housing
-                            scheme that lets big organizations from banks to real estate companies, to humanitarian
-                            organizations partner
-                            with us to take care of your accommodation while you pay an affordable percentage from
-                            whatever you earn, so that you are not homeless because you do not have bulk money to rent a
-                            place. <br>
-                            Dainty Homes was borne out of the need to reduce and eventually eradicate the poor housing
-                            situation in Nigeria and is the first of its kind in Nigeria.</p>
+    <main class="l-main">
+        <!--hero section-->
+        <section class="home background" id="home">
+            <div class="home__container bd-container">
+                <div class="home__data">
+
+                    <h2 class="home__title ">Find your perfect home without breaking the bank.</h2>
+
+                </div>
+                <div class="wrapper ">
+                    <input type="text" class="browser-default search " placeholder="Search for choice apartments">
+                    <div class="searchbtn"><i class='bx bx-search-alt-2'></i></div>
+                </div>
+                
+
+
+            </div>
+        </section>
+
+
+        <!--Services -->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Why Dainty Homes?</span>
+            <h2 class="section-title">Our amazing services</h2>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                        viewBox="0 0 24 24" style="fill:#AC3B61;">
+                        <path d="M18.991,2H9.01C7.899,2,7,2.899,7,4.01v5.637l-4.702,4.642c-0.289,0.285-0.377,0.717-0.223,
+                                1.092 C2.229,15.755,2.595,16,3,16v1.13V21c0,0.553,0.447,1,1,1h7.922H20c0.553,0,1-0.447,1-1V4.009C21,
+                                2.899,20.102,2,18.991,2z M10.922,15.111v3.027V20H5v-2.87V15v-0.568l2.987-2.949l2.935,3.003V15.111z 
+                                M13,9h-2V7h2V9z M17,17h-2v-2h2V17z M17,13h-2v-2h2 V13z M17,9h-2V7h2V9z">
+                        </path>
+                        <path d="M7 15H9V17H7z"></path>
+                    </svg>
+
+                    <h3 class="services__title">Variety of Homes</h3>
+                    <p class="services__description">We offer our clients the very best home choices. No agency
+                        problems, no hassle. Rent, buy or shorlet in a few easy steps.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                        viewBox="0 0 24 24" style="fill: #AC3B61;">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M13,4.069V2h-2v2.069C7.389,4.522,4.523,7.389,4.069,11H2v2h2.069c0.454,
+                            3.611,3.319,6.478,6.931,6.931V22h2v-2.069 c3.611-0.453,6.478-3.319,
+                            6.931-6.931H22v-2h-2.069C19.478,7.389,16.611,4.522,13,4.069z M12,18c-3.309,
+                            0-6-2.691-6-6s2.691-6,6-6 s6,2.691,6,6S15.309,18,12,18z"></path>
+                    </svg>
+
+                    <h3 class="services__title">Location</h3>
+                    <p class="services__description">We are location friendly and will
+                        find you a home regardless of where you stay.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                        viewBox="0 0 24 24" style="fill: #AC3B61;">
+                        <path d="M21,4H3C2.447,4,2,4.447,2,5v14c0,0.553,
+                        0.447,1,1,1h18c0.553,0,1-0.447,1-1V5C22,4.447,21.553,4,21,4z M20,15 c-1.657,0-3,1.343-3,
+                        3H7c0-1.657-1.343-3-3-3V9c1.657,0,3-1.343,3-3h10c0,1.657,1.343,3,3,3V15z"></path>
+                        <path d="M12,8c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4S14.206,8,12,8z M12,14c-1.103,
+                        0-2-0.897-2-2s0.897-2,2-2s2,0.897,2,2 S13.103,14,12,14z"></path>
+                    </svg>
+
+                    <h3 class="services__title">Affordable</h3>
+                    <p class="services__description">We offer our clients the ability to live comfortably
+                        and on a minimal budget..</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Newly added properties-->
+        <section class="menu section bd-container">
+            <span class="section-subtitle">Hot Deals</span>
+            <h2 class="section-title">Newly Added Properties</h2>
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house3.jpg" alt="image of a house" >
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
                     </div>
-                    <div class="card-action hoverable">
-                        <a href="#search" class="text-link hoverable">Search Homes</a>
-                        <a href="#" class="text-link hoverable">Partner</a>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house4.jpg" alt="">
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
                     </div>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="card ">
+                        <div class="card-image waves-effect">
+                            <img src="assets/img/house9.jpg" alt="image of a house" >
+                        </div>
+                        <div class="card-content menu__content">
+                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price">₦1 million</span>
+                            <span class="menu__price">Installmental Pay: Available</span>
+                            <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btn-con">
+                <a href="properties.html" class="button">View all properties</a>
+
+            </div>
+        </section>
+
+        <!--===== Hot deals =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">HOT</span>
+                    <h2 class="section-title app__initial">Deal of the day!!</h2>
+                    <p class="app__description">Own this beautiful home located in one of the most serene
+                        environments in Nigeria's capital, Abuja. Get this for over 50% off. <br>
+                        <a href="#signup" class="nav__link">Sign up</a> to get this</p>
+                </div>
+
+                <img src="assets/img/house6.jpg" alt="image of a house" class="app__img">
+            </div>
+        </section>
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">We are here for you.</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">Dear customer, we are here for you 24/7. <br>
+                        Feel free to call our customer care centers <br> or leave a message on any of our channels.</p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="tel: 123 456 789" class="button">Contact us now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content"><br>
+                <a href="#" class="footer__logo">Dainty Homes</a>
+                <span class="footer__description">Real Estate</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
                 </div>
             </div>
 
-            <div class="col s12  m6 l6">
-                <div class="card ">
-                    <div class="card-image z-depth-5">
-                        <img src="../images/about1-img.jpg" alt="" srcset="">
-                    </div><br>
-                    <div class="card-image z-depth-5">
-                        <img src="../images/about2-img.jpg" alt="" srcset="">
-                    </div>
-                </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="properties.html" class="footer__link">Rent</a></li>
+                    <li><a href="properties.html" class="footer__link">Buy</a></li>
+                    <li><a href="properties.html" class="footer__link">Shortlets</a></li>
+                    <li><a href="properties.html" class="footer__link">Shared Apartments</a></li>
+                </ul>
             </div>
 
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Partner with us</a></li>
+                    <li><a href="#" class="footer__link">FAQs</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content" id="#contact">
+                <h3 class="footer__title">Contact Us</h3>
+                <ul>
+                    <li class="footer__link">LAW - Pears Africa Estate</li>
+                    <li class="footer__link">Team 1- Group 1</li>
+                    <li><a href="tel:123 456 789" class="footer__link">123-456-789</a></li>
+                    <li><a href="mailto:daintyhomes@gmail.com" class="footer__link">daintyhomes@gmail.com</a></li>
+                </ul>
+            </div>
         </div>
-    </section>
 
-     <!--Parralax-->
-     <div class="parallax-container">
-        <div class="parallax"><img src="../images/img4.jpg"></div>
-    </div>
-
-    <!--Meet the Team Section-->
-    <section class="container section">
-        <h3 class="center subtitle-new">Meet The Team</h3>
-        <div class="row">
-
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e0e8f4,c_fill,g_auto,r_max,w_1000/v1608205474/dara_p2lxv8.jpg" alt="" srcset="">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title center big-text">Dara Nelson</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e9f0f6,bo_1px_solid_rgb:d1dae1,c_fill,g_auto,r_max,w_1000/v1606592864/T01AK91M602-U01AH7G9KEJ-2213eb9c03ae-512_cbj7hs.jpg" alt="" srcset="">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title center big-text">Aisha Olubiyo</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src=" https://res.cloudinary.com/iroh-jenny/image/upload/ar_1:1,b_rgb:e9f0f6,bo_1px_solid_blue,c_fill,g_auto,r_max,w_1000/v1606586839/Jennifer_rlckom.jpg" alt="" srcset="">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title center big-text">Jennifer Iroh</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Parralax-->
-    <div class="parallax-container">
-        <div class="parallax"><img src="../images/img7.jpg"></div>
-    </div>
+        <p class="footer__copy">&#169; Dara Nelson, Iroh Jennifer, Aisha Olubiyo.</p>
+    </footer>
 
 
-    <!--SERVICE-->
-    <section id="listing" class="section section-icons  
-    ligthen-4 center">
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card-panel">
-                    <i class="material-icons service-section large">home</i>
-                    <h4>Home</h4>
-                        <p>
-                        providing your dream house and comfort you desire at 
-                        affordable price for all social standard. 
-                        
-                        </p>
-                </div>
-            </div>
 
-            <div class="col s12 m4">
-                <div class="card-panel">
-                    <i class="fa fa-building  service-section large" aria-hidden="true"></i>
-                    <h4>Building</h4>
-                        <p>Provision of flexible payment plans for housing, 
-                            general restructuring of mortage plans.
-                             </p>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card-panel">
-                    <i class="fa fa-tags service-section large" aria-hidden="true"></i>
-                    <h4>Finance made easy</h4>
-                        <p>Investing in your dream home is our goal.
-                            we provide term and development funding in all areas of real estate sector.
-                             </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
-    
-
-    
-
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/scripts.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
 
 
-  </body>
+</body>
+
 </html>
