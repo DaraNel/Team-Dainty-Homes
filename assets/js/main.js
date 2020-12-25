@@ -1,5 +1,5 @@
 
-/*==================== SHOW MENU ====================*/
+//show menu
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -25,7 +25,7 @@ showMenu('nav-toggle','nav-menu')
 // });
 
 
-/*==================== REMOVE MENU MOBILE ====================*/
+//remove mobile menu
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -35,7 +35,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+//scroll sections active link
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -55,7 +55,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+//change background header
 function scrollHeader(){
     const nav = document.getElementById('header')
     // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
@@ -63,7 +63,7 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*==================== SHOW SCROLL TOP ====================*/ 
+//show scroll top
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -71,7 +71,7 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
-/*==================== DARK LIGHT THEME ====================*/ 
+//change theme
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
@@ -101,7 +101,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-/*==================== SCROLL REVEAL ANIMATION ====================*/
+//reaveal scroll animation
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
@@ -119,4 +119,3 @@ sr.reveal(`.home__data, .home__img,
 })
 
 
-//jquery
