@@ -22,7 +22,7 @@
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li class="nav__item"><a href="index.html" class="nav__link ">Home</a></li>
+          <li class="nav__item"><a href="index.php" class="nav__link ">Home</a></li>
           <li class="nav__item"><a href="#rent" class="nav__link">Rent</a></li>
           <li class="nav__item"><a href="#buy" class="nav__link">Buy</a></li>
           <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
@@ -363,3 +363,4 @@
 </body>
 
 </html>
+

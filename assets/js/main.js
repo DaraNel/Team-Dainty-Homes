@@ -118,5 +118,15 @@ sr.reveal(`.home__data, .home__img,
     interval: 200
 })
 
+$(document).ready(function () {
+  $('.slider').slider();
+  $('.materialboxed').materialbox();
+
+});
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true,
+  indicators: true
+});
+
 
 //jquery

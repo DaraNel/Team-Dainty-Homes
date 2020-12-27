@@ -59,6 +59,7 @@
     background-size: cover;
     background-position: center;
     min-height: 600px;
+    /* min-width: 100%; */
   }
 
 
@@ -422,6 +423,96 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+/*-------dashboard------*/
+section{
+  padding: 10px;
+}
+aside{
+padding: 30px 10px;
+
+}
+
+main{
+padding: 30px 10px;
+
+
+}
+
+.profile{
+background-color: #ffffff;
+padding: 10px;
+margin-top: 50px;
+border-radius: 10px;
+}
+
+
+.profile-img{
+padding: 10px ;
+}
+
+.badge{
+ 
+background-color: var(--first-color);
+
+}
+.navigation{
+background-color: var(--first-color);
+
+
+}
+
+.fas{
+font-size: 35px;
+padding: 15px auto 0px auto;
+}
+
+.navbar{
+padding: 20px 10px;
+}
+.nav-item{
+padding: 15px;
+background-color: #f1f1f1;
+margin: 10px;
+
+}
+
+.icon-wrapper{
+margin: 0 auto;
+padding-top: 10px ;
+}
+.active{
+background-color: var(--text-color-light) ;
+color:var(--first-color-alt);
+}
+.notification{
+ background-color:var(--first-color);
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+
+}
+.noti-wrapper {
+height: 200px;
+width: 200px;
+border-radius:50%;
+background-color: var(--body-color);
+}
+.far{
+font-size: 20px;
+}
+.statistic{
+height: 250px;
+width: 100%;
+background-color: #ffffff;
+margin: 10px 15px;
+}
+.card-title{
+color: #ffffff;
+background-color: var(--first-color);
+padding: 5px !important;
+font-size: 0.9em !important;
+}
+
 /*------ Footer --------*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -436,13 +527,13 @@ img{
 
 .footer__description{
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
   margin: .25rem 0 var(--mb-3);
 }
 
 .footer__social{
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: var(--first-color);
   margin-right: var(--mb-2);
 }
 
@@ -465,7 +556,7 @@ img{
 .footer__copy{
   text-align: center;
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--first-color);
   margin-top: 3.5rem;
 }
 
@@ -584,11 +675,11 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0,0.6);
-    max-width: 900px;
+    background: var(--text-color-light);
+    max-width: 700px;
     width: 100%;
-    margin-top: 10em;
-    padding-top: 15px;
+    margin-top: 15em;
+    padding-top: 5px;
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -632,8 +723,12 @@ img{
     box-shadow: none;
     box-sizing: content-box;
     transition: all 0.3s;
-    color: var(--first-color);
+    color: var(--first-color-alt);
+    font-weight: var(--font-medium);
 } 
+
+
+
 /*-------Others-----*/
  .title-space{
    padding: 2em;

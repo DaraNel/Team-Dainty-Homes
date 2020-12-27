@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Dainty Homes</title>
-</head>
+<?php
+include'header.php';
+include'config.php';
+?>
 
 <body>
     <!---Scroller icon--->
@@ -19,16 +12,16 @@
     <!--header section-->
     <header class="l-header" id="header">
         <div class=" nav bd-container ">
-            <a href="#" class="nav__logo">dAiNtY HOMES</a>
+            <img class="logo" src="assets\img\logo.png" alt="" width="100" height="100">
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="about.php" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                    <li class="nav__item"><a href="properties.html" class="nav__link">Properties</a></li>
+                    <li class="nav__item"><a href="property.php" class="nav__link">Properties</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    <li class="nav__item"><a href="#signup" class="nav__link">Sign Up</a></li>
+                    <li class="nav__item"><a href="signup.php" class="nav__link">Sign Up</a></li>
 
                     <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                 </ul>
@@ -49,11 +42,10 @@
                 <div class="home__data">
 
                     <h2 class="home__title ">Find your perfect home without breaking the bank.</h2>
-
                 </div>
                 <div class="wrapper ">
                     <input type="text" class="browser-default search " placeholder="Search for choice apartments">
-                    <div class="searchbtn"><i class='bx bx-search-alt-2'></i></div>
+                    <div class="searchbtn"><a href="properties.php"><i class='bx bx-search-alt-2'></i></a></div>
                 </div>
                 
 
@@ -65,7 +57,7 @@
         <!--Services -->
         <section class="services section bd-container" id="services">
             <span class="section-subtitle">Why Dainty Homes?</span>
-            <h2 class="section-title">Our amazing services</h2>
+            <h2 class="section-title">Our Amazing Services</h2>
 
             <div class="services__container  bd-grid">
                 <div class="services__content">
@@ -82,7 +74,7 @@
 
                     <h3 class="services__title">Variety of Homes</h3>
                     <p class="services__description">We offer our clients the very best home choices. No agency
-                        problems, no hassle. Rent, buy or shorlet in a few easy steps.
+                        problems and no hassles. Rent, buy or shorlet in a few easy steps.
                     </p>
                 </div>
 
@@ -170,7 +162,7 @@
             </div>
 
             <div class="btn-con">
-                <a href="properties.html" class="button">View all properties</a>
+                <a href="properties.php" class="button">View all properties</a>
 
             </div>
         </section>
@@ -207,59 +199,8 @@
         </section>
     </main>
 
-    <!--========== FOOTER ==========-->
-    <footer class="footer section bd-container">
-        <div class="footer__container bd-grid">
-            <div class="footer__content"><br>
-                <a href="#" class="footer__logo">Dainty Homes</a>
-                <span class="footer__description">Real Estate</span>
-                <div>
-                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
-                </div>
-            </div>
+<?php
+include'footer.php';
+?>
 
-            <div class="footer__content">
-                <h3 class="footer__title">Services</h3>
-                <ul>
-                    <li><a href="properties.html" class="footer__link">Rent</a></li>
-                    <li><a href="properties.html" class="footer__link">Buy</a></li>
-                    <li><a href="properties.html" class="footer__link">Shortlets</a></li>
-                    <li><a href="properties.html" class="footer__link">Shared Apartments</a></li>
-                </ul>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Information</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Partner with us</a></li>
-                    <li><a href="#" class="footer__link">FAQs</a></li>
-                    <li><a href="#" class="footer__link">Privacy policy</a></li>
-                    <li><a href="#" class="footer__link">Terms of services</a></li>
-                </ul>
-            </div>
-
-            <div class="footer__content" id="#contact">
-                <h3 class="footer__title">Contact Us</h3>
-                <ul>
-                    <li class="footer__link">LAW - Pears Africa Estate</li>
-                    <li class="footer__link">Team 1- Group 1</li>
-                    <li><a href="tel:123 456 789" class="footer__link">123-456-789</a></li>
-                    <li><a href="mailto:daintyhomes@gmail.com" class="footer__link">daintyhomes@gmail.com</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <p class="footer__copy">&#169; Dara Nelson, Iroh Jennifer, Aisha Olubiyo.</p>
-    </footer>
-
-
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/main.js"></script>
-
-
-</body>
-
-</html>
+   
