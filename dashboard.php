@@ -11,7 +11,7 @@ include'config.php';
                         <img src="assets/img/profile.jpg" alt="">
                     </span>
                     <span class="right">
-                        <p class="black-text">Aisha Olubiyo <span class="badge" style="color: white;">Gold</span ><br> <span >Agent</span></p>
+                        <p class="black-text">Aisha Olubiyo <span class="badge" style="color: white;">Gold</span ><br><h6><span class="indigo-text" >Dainty Subscriber</span></h6></p>
                     </span>
              </div>
              <div class="row  navbar ">

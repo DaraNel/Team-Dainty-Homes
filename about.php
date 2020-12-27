@@ -65,7 +65,7 @@ include'config.php';
                             
                         </div><br>
                         <div class="contact__button center btn-space">
-                            <a href="index.html" class="button">Back to Home</a>
+                            <a href="index.php" class="button">Back to Home</a>
                         </div>
                         
                     </div>

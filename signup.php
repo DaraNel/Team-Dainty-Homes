@@ -25,7 +25,7 @@ if(isset($_POST['register'])){
 
 ?>
 
-<section>    
+<section>
 <div class="container">
     <div class="row">
     <form class="col s12" action="signup.php" method="post" enctype="multipart/form-data">
@@ -33,16 +33,15 @@ if(isset($_POST['register'])){
     <br>
     <h2 class="indigo-text">Sign Up</h2>
       <div class="row">
-        <div class="input-field col s12">
-          <input id="first_name" type="text" name="firstname" class="validate">
+      <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="last_name" type="text" name="lastname" class="validate">
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
         </div>
+      </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
@@ -52,14 +51,14 @@ if(isset($_POST['register'])){
       </div>              
       <div class="row">
         <div class="input-field col s12">
-          <input id="password" type="password" name="password">
-          <label for="password">Password</label>
+          <input id="email" type="email" name="email" class="validate">
+          <label for="email">Email</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="email" type="email" name="email" class="validate">
-          <label for="email">Email</label>
+          <input id="password" type="password" name="password">
+          <label for="password">Password</label>
         </div>
       </div>
       <div class="row">
@@ -67,14 +66,6 @@ if(isset($_POST['register'])){
           <input id="number" type="number" name="phonenumber" class="validate">
           <label for="number">Phone Number</label>
         </div>
-      </div>
-      <div class="file-field input-field">
-      <div class="btn indigo">
-        <span>File</span>
-        <input type="file" multiple>
-      </div>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload one or more files">
       </div>
       <br>
       

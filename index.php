@@ -123,9 +123,9 @@ include'config.php';
                             <img src="assets/img/house3.jpg" alt="image of a house" >
                         </div>
                         <div class="card-content menu__content">
-                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                            <span class="menu__price">₦1 million</span>
-                            <span class="menu__price">Installmental Pay: Available</span>
+                            <span class="menu__detail white-text">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price white-text">₦1 million</span>
+                            <span class="menu__price white-text">Installmental Pay: Available</span>
                             <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                         </div>
                     </div>
@@ -137,9 +137,9 @@ include'config.php';
                             <img src="assets/img/house4.jpg" alt="">
                         </div>
                         <div class="card-content menu__content">
-                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                            <span class="menu__price">₦1 million</span>
-                            <span class="menu__price">Installmental Pay: Available</span>
+                            <span class="menu__detail white-text">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price white-text">₦1 million</span>
+                            <span class="menu__price white-text">Installmental Pay: Available</span>
                             <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                         </div>
                     </div>
@@ -151,9 +151,9 @@ include'config.php';
                             <img src="assets/img/house9.jpg" alt="image of a house" >
                         </div>
                         <div class="card-content menu__content">
-                            <span class="menu__detail">Lekki, Lagos, Nigeria</span>
-                            <span class="menu__price">₦1 million</span>
-                            <span class="menu__price">Installmental Pay: Available</span>
+                            <span class="menu__detail white-text">Lekki, Lagos, Nigeria</span>
+                            <span class="menu__price white-text">₦1 million</span>
+                            <span class="menu__price white-text">Installmental Pay: Available</span>
                             <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                         </div>
                     </div>
