@@ -61,7 +61,7 @@ if(isset($_POST['register'])){
     <form class="col s12" action="signup.php" method="post" enctype="multipart/form-data">
     <br>
     <br>
-    <h2 class="indigo-text">Sign Up</h2>
+    <h2 class="#880e4f">Sign Up</h2>
       <div class="row">
       <div class="input-field col s6">
           <input id="first_name" type="text" class="validate">
@@ -99,7 +99,7 @@ if(isset($_POST['register'])){
       </div>
       <br>
       
-      <button class="waves-effect waves-light btn-large indigo" type="submit" name="register">Register</button>
+      <button class="waves-effect waves-light btn-large pink darken-4" type="submit" name="register">Register</button>
     </div>
     </div>
     </div>

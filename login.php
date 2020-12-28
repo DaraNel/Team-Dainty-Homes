@@ -29,9 +29,7 @@ include'config.php';
 ?>
 
 <section>
-    <br>
-    <br>
-<div class="container"><h2 class="indigo-text">Sign In</h2></div>
+<div class="container"><h2 class="#880e4f">Sign In</h2></div>
     <div class="container">
     <div class="row">
     <form class="col s12" method="post" action="login.php">
@@ -45,7 +43,7 @@ include'config.php';
         <input placeholder="Enter Password" name="password" type="password" class="validate">
         <label class="active" for="password">Password</label>
         <div>
-        <button class="waves- btn-large indigo" type="submit" name="submit">Log In</button>
+        <button class="waves- btn-large pink darken-4" type="submit" name="submit">Log In</button>
         </div>
     </div>
     </div>

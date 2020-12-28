@@ -17,8 +17,8 @@ include'config.php';
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.php" class="nav__link ">Home</a></li>
                     <li class="nav__item"><a href="about.php" class="nav__link active-link">About</a></li>
-                    <li class="nav__item"><a href="properties.php" class="nav__link">Properties</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="property.php" class="nav__link">Properties</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
                     <li class="nav__item"><a href="signup.php" class="nav__link">Sign Up</a></li>
 
                     <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>

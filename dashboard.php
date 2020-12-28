@@ -17,7 +17,7 @@ include'config.php';
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.php" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="about.php" class="nav__link">About</a></li>
-                    <!-- <li class="nav__item"><a href="#services" class="nav__link">Services</a></li> -->
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="property.php" class="nav__link">Properties</a></li>
                     <li class="nav__item"><a href="dashboard.php" class="nav__link">Dashboard</a></li>
                     <li class="nav__item"><a href="signup.php" class="nav__link">Sign Up</a></li> 
