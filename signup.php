@@ -24,6 +24,36 @@ if(isset($_POST['register'])){
 }
 
 ?>
+<body>
+    <!---Scroller icon--->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--header section-->
+    <header>
+        <div class=" nav bd-container ">
+            <img class="logo" src="assets\img\logo.png" alt="" width="100" height="100">
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.php" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="about.php" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="property.php" class="nav__link">Properties</a></li>
+                    <li class="nav__item"><a href="dashboard.php" class="nav__link">Dashboard</a></li>
+                    <li class="nav__item"><a href="login.php" class="nav__link">Log In</a></li> 
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
 
 <section>
 <div class="container">

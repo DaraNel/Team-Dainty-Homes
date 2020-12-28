@@ -20,7 +20,7 @@ include'config.php';
                     <li class="nav__item"><a href="about.php" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="property.php" class="nav__link">Properties</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="dashboard.php" class="nav__link">Dashboard</a></li>
                     <li class="nav__item"><a href="signup.php" class="nav__link">Sign Up</a></li>
 
                     <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
@@ -162,7 +162,7 @@ include'config.php';
             </div>
 
             <div class="btn-con">
-                <a href="properties.php" class="button">View all properties</a>
+                <a href="property.php" class="button">View all properties</a>
 
             </div>
         </section>
